@@ -32,7 +32,7 @@ pipeline {
 	   steps
 	   {
 	      sh '''
-            curl -u sai:9391105070 --upload-file target/maven-web-application.war "http://65.0.31.61:8080/manager/text/deploy?path=/maven-web-application&update=true"
+            curl -u sai:9391105070 --upload-file target/maven-web-application.war "http://13.127.79.44:8080/manager/text/deploy?path=/maven-web-application&update=true"
             '''
 	   }
 	 }
